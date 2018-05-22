@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'todo/index', to: 'todo#index'
-  get 'todo/show/:id', to: 'todo#show'
+  get 'basic/index', to: 'todo#index'
+  get 'basic/show/:id', to: 'todo#show'
 end
